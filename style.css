@@ -1,0 +1,53 @@
+* {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bnSec {
+  width: 90vw;
+  height: 90vh;
+}
+
+.banner {
+  background-image: url(images/banner.png);
+  height: 100%;
+  width: 100%;
+}
+/* .mainPart {
+  box-shadow: 0px -5px 8px 1px rgb(45, 233, 45);
+  border-radius: 20px 20px 0 0;
+} */
+
+.seat-layout {
+  /* display: inline-block; */
+  /* display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(70px, 1fr)); */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* width: 70px;
+  height: 50px;
+  background-color: lightgray;
+  margin: 5px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer; */
+}
+.seat {
+  /* width: 50px;
+  height: 50px; */
+  background-color: lightgray;
+  margin: 5px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: rgba(47, 183, 88, 0.836);
+}
+#billing tr td {
+  text-align: center;
+}
